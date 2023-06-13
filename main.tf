@@ -1,6 +1,6 @@
 /* Test creating VM and eliminate to Run */
 
-resource "azurerm_resource_group" "example" {
+/*resource "azurerm_resource_group" "example" {
   name     = "example-resources"
   location = "West Europe"
 }
@@ -54,3 +54,4 @@ resource "azurerm_windows_virtual_machine" "example" {
     version   = "latest"
   }
 }
+*/
