@@ -8,7 +8,7 @@ resource "azurerm_virtual_network" "example" {
   name                = "example-network"
   address_space       = ["10.0.0.0/16"]
   location            = "East US"
-  resource_group_name = example1
+  resource_group_name = "example1"
 }
 
 resource "azurerm_subnet" "example" {
